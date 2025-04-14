@@ -1,7 +1,7 @@
 // API 기본 URL 설정
 const API_BASE_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:3000'
-    : 'https://nestjs-api.onrender.com'; // Render에 배포된 백엔드 API URL
+    : 'https://nestjstest.netlify.app'; // 백엔드 API URL
 
 // API 응답을 표시하는 유틸리티 함수
 function showApiResponse(response, error = false) {
