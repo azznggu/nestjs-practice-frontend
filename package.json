@@ -1,0 +1,12 @@
+{
+  "name": "nestjs-practice-frontend",
+  "version": "1.0.0",
+  "description": "NestJS Practice 프로젝트의 프론트엔드",
+  "scripts": {
+    "start": "serve -s .",
+    "dev": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
